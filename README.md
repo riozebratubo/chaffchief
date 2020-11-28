@@ -63,8 +63,12 @@ Please consider donating to the author if you find this sofware or portions of i
 
 ## Hardware needed
 
-## Profile exchange format
+## Profile type
 
+The profile type ChaffChief currently uses is a set of profile points in time determining two things: at which temperature should the roaster be at the given time and what percentage of the ventilation it should use at this time.
+
+Between two profile points, the roaster will use the intermediary values as if we're making an straight line on a graph of the temperatures in time. This is called linear interpolation. For example, if at time 0 we set a temperature of 20 degrees Celsius and at time 60 we set a temperature of 100 degrees, we only should have to define those two points, and the roaster will know it should start at 20 and be at 100 at 60s, meaning it will be at 60 at 30s and so on.
+## Profile exchange format
 ### Format
 
 Profile contents changing parts are defined with `<field>` in thhe following model. All the communication is done with a ascii text-based protocol over the arduino serial interface. When using bluetooth, you should use the bluetooth serial model.

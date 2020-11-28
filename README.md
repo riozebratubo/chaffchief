@@ -48,7 +48,7 @@ Please consider donating to the author if you find this sofware or portions of i
 
 <img src="site/images/donation_paypal_qrcode.png" width="100">
 
-![Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NUHKNZCBCPCLQ&item_name=Doa%C3%A7%C3%B5es+para+projetos+de+programa%C3%A7%C3%A3o+de+c%C3%B3digo+aberto&currency_code=BRL)
+[Donate link](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NUHKNZCBCPCLQ&item_name=Doa%C3%A7%C3%B5es+para+projetos+de+programa%C3%A7%C3%A3o+de+c%C3%B3digo+aberto&currency_code=BRL)
 
 ### PIX
 <img src="site/images/donation_pix_qrcode.png" width="100">

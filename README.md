@@ -1,6 +1,9 @@
 # ChaffChief
 Open source fluid bed coffee roaster firmware &amp; apps
 
+![](https://img.shields.io/badge/License-GPLv3-green?style=flat-square)
+![](https://img.shields.io/badge/Version-1.0-blue?style=flat-square)
+![](https://img.shields.io/badge/Platforms-Arduino,%20Android-orange?style=flat-square)
 ## Introduction
 
 ChaffChief is designed to be a full-featured firmware & apps package that provides the functionalities of a small fluid bed coffee roaster that executes users defined profiles with precision.

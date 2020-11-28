@@ -1,0 +1,1 @@
+This library has conflicting licensing information. While README.txt says MIT license, PID_v1.cpp says GPLv3 License.

@@ -11,7 +11,7 @@ It enables the machine to:
 - Receive and run roasting profiles
 - Remember the last used roasting profile even after power off
 
-It has one app that enabled you to:
+It has one app that enables you to:
 - Create, edit and store roasting profiles
 - Send profiles to the roaster machine
 - Follow the execution of a roast
@@ -20,7 +20,7 @@ It has one app that enabled you to:
 ChaffChief is comprised of two solutions: a machine firmware and an app that communicates with the machine.
 
 Currently the hardware needed is:
-- Firmware
+- Firmware *(do not worry, this will be expanded and explained in further sections)*
   - Arduino Mega 2560 rev3
   - Air popcorn popper
   - 20a+ Solid state relay with an heat dissipator

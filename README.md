@@ -63,6 +63,8 @@ Please consider donating to the author if you find this sofware or portions of i
 
 ## Hardware needed
 
+*(Still in writing)*
+
 ## Profile type
 
 The profile type ChaffChief currently uses is a set of profile points in time determining two things: at which temperature should the roaster be at the given time and what percentage of the ventilation it should use at this time.
@@ -119,8 +121,10 @@ On this example, the roast starts with temperature 0 and fan 70%. Quickly it cat
 
 ## Firmware
 
+*(Still in writing)*
 ## App
 
+*(Still in writing)*
 ## Contributing
 
 Feel free to contribute to this software. Any help on this regard will be really appreciated.

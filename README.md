@@ -88,6 +88,8 @@ uuid<profile_uuid>
 end_receive_profile
 ```
 
+The `<profile_uuid>` is a string in the uuid format that uniquely identifies this profile. If a profile changes in time, its uuid also should change. The uuid then represents a *version* of the profile in time.
+
 Currently a profile must have no more than 60 lines (or profile points, as a line represents a profile point) and at least 2 lines.
 
 A `<line>` is comprised of:

@@ -45,14 +45,6 @@ Currently the hardware needed is:
 Please consider donating to the author if you find this sofware or portions of it useful. A huge amount of time and resources were spent on the making of this software.
 
 ### PAYPAL
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="NUHKNZCBCPCLQ" />
-<input type="hidden" name="item_name" value="Doações para projetos de programação de código aberto" />
-<input type="hidden" name="currency_code" value="BRL" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
-</form>
 
 <img src="site/images/donation_paypal_qrcode.png" width="100">
 
@@ -137,7 +129,7 @@ As soon as possible, if needed, the author will contact you to review your pull 
 
 As examples of how you can contribute, you may:
 
-- Create a new app, for example, for a new architecture. The basic functionalities the app must have are: store profiles, edit them (the simples form may be text-based) and connect with the roaster via bluetooth and send any profile to the roaster. You may increase the functionalities later;
+- Create a new app, for example, for a new architecture. The basic functionalities the app must have are: store profiles, edit them (the simplest form may be text-based) and connect with the roaster via bluetooth and send any profile to the roaster. You may increase the functionalities later;
 - Contribute on an existing app;
 - Contribute on the firmware (for this some experience with running the project and Arduino is desired): adding functionalities or fixing bugs you may find;
 - Example of a new functionality to the firmware: the possibility to have more than one profile on the machine at any time. Adding optional display modules. Adding new optional push buttons;

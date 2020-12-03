@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="roasters">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="roasters_names">
+        <item>Roaster 1</item>
+        <item>Roaster 2</item>
+        <item>Roaster 3</item>
+        <item>Roaster 4</item>
+        <item>Roaster 5</item>
+        <item>Roaster 6</item>
+    </string-array>
+
+</resources>

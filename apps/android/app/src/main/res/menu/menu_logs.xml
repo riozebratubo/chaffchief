@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Share">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_log_popup_share_as_csv"
+                android:title="As CSV file"/>
+
+            <item
+                android:id="@+id/menu_log_popup_share_as_text"
+                android:title="As text"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_log_popup_delete"
+        android:icon="@drawable/ic_baseline_clear_24px"
+        android:title="Delete" />
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Share folder under internal file folder. The base folder is context.getFilesDir() -->
+    <files-path name="logs" path="logs/" />
+    <files-path name="backups" path="backups/" />
+
+</paths>

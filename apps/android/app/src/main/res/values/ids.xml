@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Generate an id which can be used when the location menu item is added in MainActivity
+    -->
+    <item name="menu_location" type="id"/>
+    <item name="menu_main" type="id"/>
+
+</resources>

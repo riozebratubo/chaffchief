@@ -1,0 +1,125 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <EditTextPreference
+        android:capitalize="characters"
+        android:defaultValue="@string/pref_default_roaster_address"
+        android:inputType="text"
+        android:key="preference_roaster_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:title="@string/pref_roaster_address"
+        android:hint="@string/pref_roaster_address_hint" />
+        -->
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/roasters_names"
+        android:entryValues="@array/roasters"
+        android:key="preference_roaster_number_selected"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/preference_use_which_roaster" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_roaster_address"
+        android:inputType="text"
+        android:key="preference_roaster1_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:title="@string/pref_roaster1_address"
+        android:hint="@string/pref_roaster_address_hint" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_roaster_address"
+        android:inputType="text"
+        android:key="preference_roaster2_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:title="@string/pref_roaster2_address"
+        android:hint="@string/pref_roaster_address_hint" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_roaster_address"
+        android:inputType="text"
+        android:key="preference_roaster3_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:title="@string/pref_roaster3_address"
+        android:hint="@string/pref_roaster_address_hint" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_roaster_address"
+        android:inputType="text"
+        android:key="preference_roaster4_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:title="@string/pref_roaster4_address"
+        android:hint="@string/pref_roaster_address_hint" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_roaster_address"
+        android:inputType="text"
+        android:key="preference_roaster5_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:title="@string/pref_roaster5_address"
+        android:hint="@string/pref_roaster_address_hint" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_roaster_address"
+        android:inputType="text"
+        android:key="preference_roaster6_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:title="@string/pref_roaster6_address"
+        android:hint="@string/pref_roaster_address_hint" />
+    <!--
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="example_switch"
+        android:summary="@string/pref_description_social_recommendations"
+        android:title="@string/pref_title_social_recommendations" />
+        -->
+
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <!--
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="example_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+        -->
+
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <!--
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_example_list_titles"
+        android:entryValues="@array/pref_example_list_values"
+        android:key="example_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_add_friends_to_messages" />
+        -->
+
+
+</PreferenceScreen>

@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">ChaffChief</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logs_list">View logs...</string>
+    <string name="action_log_viewer">View current roast...</string>
+
+    <!-- 1: app title -->
+    <string name="activity_title_logs">%1$s Logs</string>
+
+    <string name="msg_no_notes">No profiles yet</string>
+    <string name="msg_no_logs">No logs yet</string>
+
+    <string name="msg_roast_started">STARTED ROASTING</string>
+    <string name="msg_roast_cooling">COOLING</string>
+    <string name="msg_roast_ended">ROASTING ENDED</string>
+
+    <string name="lbl_save_and_clear">Save &amp;\nclear</string>
+
+    <string name="lbl_new_note_title">New profile</string>
+    <string name="lbl_edit_note_title">Edit profile</string>
+
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_update">Update</string>
+
+    <string name="lbl_development">Development: %1$s%%</string>
+
+    <string name="hint_enter_note">Please enter some profile text.</string>
+    <string name="menu_option_roaster_status">Roaster connection status</string>
+
+    <string name="msg_action_note_sending">Sending profile...</string>
+    <string name="msg_action_note_received">Profile received!</string>
+    <string name="msg_action_note_error">Error sending profile. Please try again.</string>
+
+    <string name="msg_action_note_deleted">Profile deleted</string>
+    <string name="msg_action_undo">UNDO</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="lbl_yellowing_point">Yellowing</string>
+    <string name="lbl_crack_point">First crack</string>
+    <string name="lbl_cooling_point">Cooling</string>
+    <string name="lbl_finish">Finish</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_roaster1_address">Roaster 1 address</string>
+    <string name="pref_roaster2_address">Roaster 2 address</string>
+    <string name="pref_roaster3_address">Roaster 3 address</string>
+    <string name="pref_roaster4_address">Roaster 4 address</string>
+    <string name="pref_roaster5_address">Roaster 5 address</string>
+    <string name="pref_roaster6_address">Roaster 6 address</string>
+    <string name="pref_default_roaster_address"/>
+    <string name="pref_roaster_address_hint">Example: 00:0A:43:E3:F1:0A</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="preference_use_which_roaster">Use roaster</string>
+    <string name="lbl_log_comments">Log comments</string>
+    <string name="lbl_log_add_event">Add log event</string>
+    <string name="action_backup_restore_menu">Backup/Restore</string>
+    <string name="action_backup">Backup…</string>
+    <string name="action_restore">Restore…</string>
+    <string name="msg_restore_database_successful"><b>Successfully restored app data.</b></string>
+    <string name="msg_restore_database_error"><b>Error: could not restore app data from file.</b></string>
+    <string name="switch_show_power_text">Power</string>
+    <string name="switch_auto_scroll_text">Scroll</string>
+
+    <string name="unknown_profile_title">Unknown Profile</string>
+    <string name="label_roast_event_cooling">COOLING STARTED</string>
+    <string name="label_roast_event_started">ROAST STARTED</string>
+    <string name="label_roast_event_stopped">ROAST FINISHED</string>
+
+
+</resources>

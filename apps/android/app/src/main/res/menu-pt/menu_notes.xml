@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_profile_popup_rename"
+        android:title="Renomear..." />
+
+    <item
+        android:id="@+id/menu_profile_popup_duplicate"
+        android:title="Duplicar..." />
+
+    <item
+        android:id="@+id/menu_profile_popup_share"
+        android:title="Compartilhar">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_profile_popup_share_as_text"
+                android:title="Como texto"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_profile_popup_delete"
+        android:icon="@drawable/ic_baseline_clear_24px"
+        android:title="Excluir" />
+
+    <item
+        android:id="@+id/menu_profile_popup_send"
+        android:icon="@drawable/ic_baseline_play_for_work_24px"
+        android:title="Enviar" />
+
+
+</menu>

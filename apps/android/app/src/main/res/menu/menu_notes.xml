@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_profile_popup_rename"
+        android:title="Rename..." />
+
+    <item
+        android:id="@+id/menu_profile_popup_duplicate"
+        android:title="Duplicate..." />
+
+    <item
+        android:id="@+id/menu_profile_popup_share"
+        android:title="Share">
+
+        <menu>
+
+            <item
+            android:id="@+id/menu_profile_popup_share_as_text"
+            android:title="As text"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_profile_popup_delete"
+        android:icon="@drawable/ic_baseline_clear_24px"
+        android:title="Delete" />
+
+    <item
+        android:id="@+id/menu_profile_popup_send"
+        android:icon="@drawable/ic_baseline_play_for_work_24px"
+        android:title="Send" />
+
+</menu>

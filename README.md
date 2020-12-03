@@ -6,7 +6,7 @@ Open source fluid bed coffee roaster firmware &amp; apps
 ![](https://img.shields.io/badge/Platforms-Arduino,%20Android-orange?style=flat-square)
 ## Introduction
 
-ChaffChief is designed to be a full-featured firmware & apps package that provides the functionalities of a small fluid bed coffee roaster that executes users defined profiles with precision.
+ChaffChief is designed to be a full-featured firmware & apps package that provides the functionalities of a small fluid bed coffee roaster using an air popcorn popper, executing user-defined profiles with precision.
 
 To use ChaffChief, you need a machine setup and an app.
 
@@ -18,7 +18,7 @@ It has one app that enables you to:
 - Create, edit and store roasting profiles
 - Send profiles to the roaster machine
 - Follow the execution of a roast
-- Keep the logs of the roast executions
+- Keep the logs of roast executions
 
 ChaffChief is comprised of two solutions: a machine firmware and an app that communicates with the machine.
 
@@ -26,7 +26,7 @@ Currently the hardware needed is:
 - Firmware *(do not worry, this will be expanded and explained in further sections)*
   - Arduino Mega 2560 rev3
   - Air popcorn popper
-  - 20a+ Solid state relay with an heat dissipator
+  - 20a+ solid state relay with an heat dissipator
   - Mosfet with an heat dissipator compatible with the popcorn popper or an compatible DC motor driver
   - Arduino rated power supply
   - DC power supply rated at 12V (or greater, defined by your choice of popcorn popper)
@@ -41,11 +41,9 @@ Currently the hardware needed is:
 - App
   - A device running Android 6.0+
 
-*As of 01 december 2020, the app isn't yet provided, only the firmware. The author is working on making it available as soon as possible.*
-
 ## Donating
 
-Please consider donating to the author if you find this sofware or portions of it useful. A huge amount of time and resources were spent on the making of this software.
+Please consider donating to the author if you find this software or portions of it useful. A huge amount of time and resources were spent on the making of this software.
 
 ### PAYPAL
 

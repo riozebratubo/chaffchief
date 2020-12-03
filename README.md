@@ -65,56 +65,8 @@ Please consider donating to the author if you find this sofware or portions of i
 The profile type ChaffChief currently uses is a set of profile points in time determining two things: at which temperature should the roaster be at the given time and what percentage of the ventilation it should use at this time.
 
 Between two profile points, the roaster will use the intermediary values as if we're making an straight line on a graph of the temperatures in time. This is called linear interpolation. For example, if at time 0 we set a temperature of 20 degrees Celsius and at time 60 we set a temperature of 100 degrees, we only should have to define those two points, and the roaster will know it should start at 20 and be at 100 at 60s, meaning it will be at 60 at 30s and so on.
-## Profile exchange format
-### Format
 
-Profile contents changing parts are defined with `<field>` in thhe following model. All the communication is done with a ascii text-based protocol over the arduino serial interface. When using bluetooth, you should use the bluetooth serial model.
-
-The lines on the communication are newline-terminated, meaning they end with an newline character (ascii 13).
-
-A profile may be sent to the machine at any moment when it is on its stopped state. It is comprised of:
-
-```
-start_receive_profile
-uuid<profile_uuid>
-<line>
-...
-<line>
-end_receive_profile
-```
-
-The `<profile_uuid>` is a string in the uuid format that uniquely identifies this profile. If a profile changes in time, its uuid also should change. The uuid then represents a *version* of the profile in time.
-
-Currently a profile must have no more than 60 lines (or profile points, as a line represents a profile point) and at least 2 lines.
-
-A `<line>` is comprised of:
-
-```
-<time>,<temperature>,<fan>
-```
-
-Where:
-- `<time>` is the time on the roasting process where the roaster should be at this lines' desired temperature. The times are expressed on milliseconds: 3000 means at the second 3 since the beggining of the roast, 120000 means two minutes. The first line of the profile must use time 0, indicating it starts from this line. It should be an integer.
-- `<temperature>` is the temperature desired on this lines' time on the roast, in Celsius. It is a good practice to start a profile on a temperature close to ambient temperature. It should be an integer.
-- `<fan>` is the ventilation percentage (without the %, only the number) desired on this lines' time of the roast. It should be an integer. You should not use 0 for this value at any time, since it would stop the air flow and thus interrupting the roast. It's also not supported on the firmware. If a profile has a line with fan value 0, the roaster will refuse the profile.
-
-### Examples
-
-```
-start_receive_profile
-uuid0d4b28e2-845c-415a-8b87-888fd48eabe8
-0,0,70
-3000,28,70
-120000,100,70
-239000,167,70
-299000,195,70
-335000,204,70
-370000,209,70
-418000,212,70
-end_receive_profile
-```
-
-On this example, the roast starts with temperature 0 and fan 70%. Quickly it catches to temperature 28 after 3 seconds. The profile finishing temperature is 212 degrees Celsius, at 6:58 (418 seconds means 6 minutes and 58 seconds).
+For more details, see the [profile exchange format](https://github.com/riozebratubo/chaffchief/wiki/Profile-exchange-format).
 
 ## Firmware
 

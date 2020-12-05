@@ -56,7 +56,7 @@ Please consider donating to the author if you find this software or portions of 
 
 ## Hardware needed
 
-Please check [Hardware needed](wiki/Hardware-needed).
+Please check [Hardware needed](https://github.com/riozebratubo/chaffchief/wiki/Hardware-needed).
 
 ## Profile type
 

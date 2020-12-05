@@ -56,7 +56,7 @@ Please consider donating to the author if you find this software or portions of 
 
 ## Hardware needed
 
-*(Still in writing)*
+Please check [Hardware needed](wiki/Hardware-needed).
 
 ## Profile type
 

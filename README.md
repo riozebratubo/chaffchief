@@ -23,23 +23,12 @@ It has one app that enables you to:
 ChaffChief is comprised of two solutions: a machine firmware and an app that communicates with the machine.
 
 Currently the hardware needed is:
-- Firmware *(do not worry, this will be expanded and explained in further sections)*
-  - Arduino Mega 2560 rev3
-  - Air popcorn popper
-  - 20a+ solid state relay with an heat dissipator
-  - Mosfet with an heat dissipator compatible with the popcorn popper or an compatible DC motor driver
-  - Arduino rated power supply
-  - DC power supply rated at 12V (or greater, defined by your choice of popcorn popper)
-  - HC-06 bluetooth arduino module
-  - MAX31856 arduino module
-  - Optional push button module
-  - Optional rgb led module
-  - Arduino jumper cables to make the arduino logic connections
-  - Some robust electric copper wires to make the AC connections, some for the DC connections and a male power plug
-  - An arduino usb cable to program the Arduino and debug the firmware if needed
-  - A computer to program the Arduino
-- App
-  - A device running Android 6.0+
+- Firmware: Arduino Mega + Components
+- App: a device running Android 6.0+
+
+## Hardware needed
+
+Please check [Hardware needed](https://github.com/riozebratubo/chaffchief/wiki/Hardware-needed).
 
 ## Donating
 
@@ -53,10 +42,6 @@ Please consider donating to the author if you find this software or portions of 
 
 ### PIX
 <img src="site/images/donation_pix_qrcode.png" width="100">
-
-## Hardware needed
-
-Please check [Hardware needed](https://github.com/riozebratubo/chaffchief/wiki/Hardware-needed).
 
 ## Profile type
 
